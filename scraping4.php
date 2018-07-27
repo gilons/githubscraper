@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $pdo = new  PDO('mysql:host=localhost;dbname=scrapp', 'root', 'santers1997');
+    $pdo = new  PDO('mysql:host=localhost;dbname=scrapp', 'root', 'password');
 
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     //  echo 'Connected successfully';
