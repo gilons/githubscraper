@@ -80,7 +80,6 @@ class CheckResult
         echo $this->statue;
     }
 }
-
 class TestResult
 {
     private $status;
